@@ -19,8 +19,15 @@ html{color-scheme:light}.portrait-frame{position:relative;display:block;width:91
 @media(max-width:700px){header{gap:12px}.brand{font-size:13px}.theme-toggle{margin-left:auto;order:2;width:32px;height:32px}.menu-button{order:3;font-size:11px}.menu-button span{font-size:13px}nav{order:4;margin:0}.portrait-frame{width:72px;height:72px}.hero .intro{font-size:13px}.simulation{height:330px}.scene-info{min-height:95px}.scene-info h3{font-size:15px}.scene-info p{font-size:11px}.lab-legend{font-size:8px;gap:12px}.axis-caption{font-size:6px;letter-spacing:.6px}.interaction-readout{font-size:9px}.lab-control label{font-size:10px}.range-labels{font-size:8px}.illustrative{font-size:7px}.scene-action{font-size:10px}.demo-notes p{font-size:10px}[data-theme=dark] nav{background:#14283f;border-color:#355273}}
 @media(min-width:701px) and (max-width:900px){nav{gap:14px}.theme-toggle{width:31px;height:31px;margin-left:12px}.brand{font-size:13px}}
 /* User-supplied Scholar portrait, profile links, and a broader city view. */
-.portrait-frame .portrait{width:200%;height:227.3%;left:-50%;top:-33%;object-fit:cover}.socials{display:flex;flex-wrap:wrap;gap:11px 18px;max-width:440px}.socials>span{display:none}.footer-profiles{display:flex;align-items:center;gap:18px;margin-left:12px;font-size:10px}.footer-profiles a{white-space:nowrap}.simulation{height:390px}.hero-visual{max-width:700px}
+.portrait-frame .portrait{width:100%;height:100%;left:0;top:0;object-fit:cover;object-position:center}.socials{display:flex;flex-wrap:wrap;gap:11px 18px;max-width:440px}.socials>span{display:none}.footer-profiles{display:flex;align-items:center;gap:18px;margin-left:12px;font-size:10px}.footer-profiles a{white-space:nowrap}.simulation{height:390px}.hero-visual{max-width:700px}
 @media(max-width:1000px){.simulation{height:360px}.socials{gap:10px 15px}.footer-profiles{margin-left:0}}
 @media(max-width:700px){.simulation{height:350px}.socials{max-width:335px;gap:10px 17px}.footer-profiles{order:3;width:100%;gap:22px}footer{row-gap:15px}}
 
 .lab-legend .human-key{background:#ffe5ba}
+
+/* Larger portrait with the supplied square headshot. */
+.portrait-frame{width:120px;height:120px}
+@media(max-width:1280px){.portrait-frame{width:110px;height:110px}}
+@media(max-width:1000px){.portrait-frame{width:96px;height:96px}}
+@media(max-width:700px){.portrait-frame{width:92px;height:92px}}
+@media(max-width:380px){.portrait-frame{width:80px;height:80px}.identity{gap:14px}}
